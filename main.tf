@@ -8,8 +8,6 @@ terraform {
 }
 provider "aws" {
     region = "us-west-2"
-    access_key = "AKIAUFTM4SNQCXNSLISV"
-    secret_key = "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"
 }
 
 module "scp_sandbox" {
